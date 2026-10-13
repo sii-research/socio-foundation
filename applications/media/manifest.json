@@ -1,0 +1,92 @@
+[
+  {
+    "scene": "student",
+    "language": "en",
+    "duration": 20,
+    "file": "student-en.mp4",
+    "bytes": 172394
+  },
+  {
+    "scene": "student",
+    "language": "zh",
+    "duration": 20,
+    "file": "student-zh.mp4",
+    "bytes": 152193
+  },
+  {
+    "scene": "customer",
+    "language": "en",
+    "duration": 20,
+    "file": "customer-en.mp4",
+    "bytes": 161409
+  },
+  {
+    "scene": "customer",
+    "language": "zh",
+    "duration": 20,
+    "file": "customer-zh.mp4",
+    "bytes": 136291
+  },
+  {
+    "scene": "negotiation",
+    "language": "en",
+    "duration": 20,
+    "file": "negotiation-en.mp4",
+    "bytes": 210694
+  },
+  {
+    "scene": "negotiation",
+    "language": "zh",
+    "duration": 20,
+    "file": "negotiation-zh.mp4",
+    "bytes": 185823
+  },
+  {
+    "scene": "negotiation",
+    "language": "zh",
+    "layout": "portrait",
+    "duration": 20,
+    "file": "negotiation-zh-mobile.mp4",
+    "bytes": 173876
+  },
+  {
+    "scene": "customer",
+    "language": "en",
+    "layout": "portrait",
+    "duration": 20,
+    "file": "customer-en-mobile.mp4",
+    "bytes": 155710
+  },
+  {
+    "scene": "student",
+    "language": "zh",
+    "layout": "portrait",
+    "duration": 20,
+    "file": "student-zh-mobile.mp4",
+    "bytes": 141845
+  },
+  {
+    "scene": "student",
+    "language": "en",
+    "layout": "portrait",
+    "duration": 20,
+    "file": "student-en-mobile.mp4",
+    "bytes": 165228
+  },
+  {
+    "scene": "negotiation",
+    "language": "en",
+    "layout": "portrait",
+    "duration": 20,
+    "file": "negotiation-en-mobile.mp4",
+    "bytes": 199573
+  },
+  {
+    "scene": "customer",
+    "language": "zh",
+    "layout": "portrait",
+    "duration": 20,
+    "file": "customer-zh-mobile.mp4",
+    "bytes": 131147
+  }
+]

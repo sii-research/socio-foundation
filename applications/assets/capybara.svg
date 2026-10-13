@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="725" height="810" viewBox="20 10 725 810" fill="none">
+  <title>Socio-Foundation · Graduate Capybara</title>
+  <desc>Refined from the paper mascot: the original silhouette, academic cap, glasses and five-color capability badge, with a warm forest palette and compact framing.</desc>
+  <defs>
+    <linearGradient id="fur" x1="330" y1="165" x2="560" y2="760" gradientUnits="userSpaceOnUse"><stop stop-color="#d6b38a"/><stop offset="1" stop-color="#c2a078"/></linearGradient>
+    <linearGradient id="jacket" x1="160" y1="470" x2="500" y2="760" gradientUnits="userSpaceOnUse"><stop stop-color="#798b73"/><stop offset="1" stop-color="#61765d"/></linearGradient>
+    <linearGradient id="cap" x1="350" y1="45" x2="580" y2="200" gradientUnits="userSpaceOnUse"><stop stop-color="#405448"/><stop offset="1" stop-color="#2f4037"/></linearGradient>
+  </defs>
+  <g stroke="#34382e" stroke-linejoin="round">
+    <!-- Tail and feet -->
+    <path d="M79 681C60 683 47 695 45 709C40 730 57 748 80 756L113 757L122 716Z" fill="#c1a079" stroke-width="15"/>
+    <path d="M103 751C128 788 197 801 274 801L337 801C366 796 386 787 398 766C410 746 419 739 439 736C447 774 457 793 491 794C527 796 566 796 584 778C601 762 582 731 570 718L399 686Z" fill="#c1a079" stroke-width="15"/>
+    <path d="M339 739C354 736 372 736 382 746C392 756 388 769 381 779" stroke-width="10" stroke-linecap="round"/>
+    <path d="M331 772C339 765 347 779 347 786M363 756C373 753 381 762 376 773M522 756C530 759 533 774 528 782M557 752C568 755 567 770 559 778" stroke="#b29168" stroke-width="8" stroke-linecap="round"/>
+    <!-- Body -->
+    <path d="M189 443C202 388 215 269 243 221C225 197 211 165 226 150C242 134 273 153 308 178L351 165L490 176C551 186 610 214 649 251C680 276 706 314 711 355C720 407 697 455 664 485C638 510 599 521 568 522L566 553C565 606 558 678 572 720L463 735L396 699L305 770C247 769 159 770 111 758C83 752 72 718 73 686C76 641 99 593 127 556C146 527 163 505 173 473Z" fill="url(#fur)" stroke-width="16"/>
+    <!-- Jacket -->
+    <path d="M185 433L207 450L242 535L308 640L402 590L462 646L558 557C565 606 556 679 570 720L463 733L396 696L304 770C245 768 159 770 112 758C85 754 72 719 73 686C76 640 99 592 127 556C144 528 161 505 170 476Z" fill="url(#jacket)" stroke-width="10" stroke-linejoin="miter"/>
+    <path d="M411 617V703" stroke="#eeeede" stroke-width="7"/>
+    <!-- Shirt collar -->
+    <path d="M208 453L337 523L403 590L308 639L242 535Z" fill="#fffaf0" stroke-width="7" stroke-linejoin="miter"/>
+    <path d="M403 590L454 545L549 514L566 550L462 647Z" fill="#fffaf0" stroke-width="8" stroke-linejoin="miter"/>
+    <path d="M494 531L550 513" stroke-width="11" stroke-linecap="round"/>
+    <!-- Pastel ribbon -->
+    <g stroke="none">
+      <path d="M198.5 653.7H220.5V705.2H198.5Z" fill="#8ec3e1"/>
+      <path d="M220.5 653.7H242.5V705.2H220.5Z" fill="#bca8e4"/>
+      <path d="M242.5 653.7H264.5V705.2H242.5Z" fill="#96ceb7"/>
+      <path d="M264.5 653.7H286.5V705.2H264.5Z" fill="#edcf8e"/>
+      <path d="M286.5 653.7H308.5V705.2H286.5Z" fill="#e5adc5"/>
+    </g>
+    <!-- Face: preserve the original glasses and profile. -->
+    <path d="M240 162Q260 166 285 187" stroke="#b48d65" stroke-width="9" stroke-linecap="round"/>
+    <path d="M278.5 236.4L330 267" stroke-width="16"/>
+    <path d="M367 236.2H461C482 236.2 499 253.3 499 274.5V330C499 351 482 368 461 368H368C347 368 330 351 330 330V275C330 253.6 346 236.2 367 236.2Z" stroke-width="21"/>
+    <ellipse cx="410.8" cy="291.3" rx="14.8" ry="18.3" fill="#25271f" stroke="none"/>
+    <circle cx="415" cy="285" r="4" fill="#fff8e9" stroke="none"/>
+    <path d="M634 235L677 233M718 242L720 343" stroke-width="18" stroke-linecap="round"/>
+    <ellipse cx="631" cy="313" rx="52" ry="33" fill="#b49269" stroke="none"/>
+    <path d="M595 301C617 286 650 283 669 294L680 300" stroke-width="15" stroke-linecap="round"/>
+    <path d="M631 317L659 324L682 309L674 339L659 353L659 405H646L647 354Z" fill="#292b22" stroke="none"/>
+    <!-- Mortarboard -->
+    <path d="M342 119L360 192L494 185L572 214L590 143L481 101Z" fill="url(#cap)" stroke-width="16" stroke-linejoin="miter"/>
+    <path d="M294 90L368 38L557 31L681 112L623 163L417 171Z" fill="url(#cap)" stroke-width="15" stroke-linejoin="miter"/>
+    <!-- Tassel -->
+    <path d="M682 127L689 225" stroke="#b68e43" stroke-width="9"/>
+    <path d="M694 221C705 221 711 226 711 239V277C711 289 705 296 693 296C681 296 675 290 675 279V241C675 227 681 221 694 221Z" fill="#e8be67" stroke-width="7"/>
+  </g>
+</svg>
