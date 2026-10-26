@@ -73,12 +73,17 @@
     const s = sceneConfig(id);
     return `<div class="sf-model-signals"><div class="sf-signal-ours"><span><img src="${page ? '../' : ''}assets/capybara.svg" alt="">Socio-Foundation</span><b>${t(s.observations.socio)}</b></div><div><span>Qwen3-8B</span><b>${t(s.observations.qwen3)}</b></div><div><span>GPT-5.5</span><b>${t(s.observations.gpt55)}</b></div></div>`;
   }
+  const homepageTitles = {
+    student: ['Let students<br>voice their confusion.', '让学生，<br>说出各自的困惑。'],
+    customer: ['Let customers<br>advocate for their needs.', '让顾客，<br>争取自己的需求。'],
+    negotiation: ['Let buyers<br>stand by their limits.', '让买家，<br>守住自己的底线。']
+  };
   function renderCards() {
     document.querySelectorAll('[data-showcase]').forEach(grid => {
       const detailed = grid.dataset.showcase === 'detail', root = grid.dataset.root || '';
       grid.innerHTML = Object.keys(scenes).map(id => {const s=sceneConfig(id);return `<article class="sf-scene sf-${id}" id="${detailed ? id : 'preview-'+id}">
         <div class="sf-scene-heading"><span>${s.number} / ${t(s.category)}</span><span class="sf-scene-dot" aria-hidden="true">↗</span></div>
-        <h3>${t(s.title)}</h3>${illustration(id)}
+        <h3>${t(detailed ? s.title : homepageTitles[id])}</h3>${illustration(id)}
         <div class="sf-scene-copy"><p>${t(s.description)}</p><div class="sf-trait-tags">${s.traits.map(x=>`<span>${t(x)}</span>`).join('')}</div></div>
         <div class="sf-comparison-label">${people[activePerson(id)]} · ${t(['CASE OBSERVATIONS','案例差异'])}</div>${observations(id)}
         ${detailed ? `<details class="sf-dialogue" data-scene="${id}" ${states[id].open ? 'open' : ''}><summary><span>${t(['View dialogue & model outputs','展开对话与模型输出'])}</span><span class="sf-expand" aria-hidden="true">+</span></summary><div class="sf-dialogue-content"></div></details>` : `<a class="sf-scene-link" href="${root}index.html?v=20261013-showcase#${id}">${t(['Explore this application','探索这个应用'])}<span>↗</span></a>`}
