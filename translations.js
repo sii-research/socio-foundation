@@ -7,7 +7,7 @@ window.SF_TRANSLATIONS = {
   '在变化的情境中，保留每个人的不同。':'Preserving individuality in a changing world.',
   '一个面向多样社会情境的':'Across diverse social contexts. Powered by an',
   '8B 个体行为模拟基座。':'8B foundation model for individual simulation.',
-  '阅读论文':'Read the paper', '获取模型':'Get the model',
+  '阅读论文':'Read the paper', '下载模型':'Download Model', '申请试用':'Request Access', '获取代码':'Get the Code', '查看 Leaderboard':'View Leaderboard',
   '复旦大学':'Fudan University','上海创智学院':'Shanghai Innovation Institute','腾讯':'Tencent',
   '不同个体在社会情境中保持身份的概念动画':'A conceptual animation of individuals retaining their identities across contexts',
   '不同人物的轨迹在共享社会空间中交汇':'Individual trajectories meet in a shared social world',
